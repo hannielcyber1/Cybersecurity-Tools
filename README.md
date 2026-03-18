@@ -70,7 +70,7 @@ This project is useful for **learning cybersecurity concepts**, **password testi
 ```
 📁 Password-List-Generator
 │
-├── password_generator.py   # Password list generator script
+├── Password_List_Generator.py   # Password list generator script
 └── README.md               # Project documentation
 ```
 
@@ -93,7 +93,7 @@ The script uses only built-in Python modules:
 Run the script:
 
 ```
-python password_generator.py
+python Password_List_Generator.py
 ```
 
 You will be asked for the password settings:
