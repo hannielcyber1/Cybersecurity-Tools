@@ -1,7 +1,8 @@
 # 🔒 Cybersecurity Python Projects 🚀
 
-This collection contains ** 5 projects** for educational and security testing purposes. Each project focuses on a specific area in cybersecurity — from Network scanning to password strength and brute-force testing.
+Cybersecurity is a critical field in today’s digital world, where protecting systems, networks, and data is more important than ever. This repository contains a collection of Python-based projects designed to demonstrate fundamental cybersecurity concepts through practical implementation.
 
+Each project focuses on a specific area such as password security, encryption techniques, and network scanning. The goal is to provide hands-on experience while building a strong foundation in cybersecurity and Python programming.
 ---
 
 
@@ -422,6 +423,7 @@ Ports: 1 - 65535
 [OPEN] Port 80
 [OPEN] Port 9929
 
+
 Scan completed at: 2026-03-16 23:20:12
 Results saved to: scan_results_45.33.32.156.txt
 ```
@@ -451,6 +453,7 @@ Port 22 OPEN
 Port 3389 OPEN
 Port 80 OPEN
 Port 9929 OPEN
+
 ```
 
 ---
