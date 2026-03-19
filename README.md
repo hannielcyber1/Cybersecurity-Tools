@@ -448,6 +448,7 @@ File content example:
 Port Scan Results for 45.33.32.156
 
 Port 22 OPEN
+Port 3389 OPEN
 Port 80 OPEN
 Port 9929 OPEN
 ```
