@@ -457,4 +457,137 @@ Port 9929 OPEN
 
 ---
 
+## 6️⃣🔐📂 File Hasher & Hash Verifier 
+
+
+
+A powerful Python toolkit for **generating and verifying file hashes** using multiple cryptographic algorithms.
+
+This project helps ensure **file integrity and authenticity and secure file distribution**.
+
+---
+
+### 🚀 Features
+
+#### 🔹 File Hasher
+
+* 🔐 Generate hashes for any file
+* 🧠 Supports multiple algorithms (MD5, SHA, SHA3, BLAKE2)
+* 📊 Displays file size and hashing time
+* 📈 Progress bar during hashing
+* 🎨 Clean colored terminal output
+
+#### 🔹 Hash Verifier
+
+* ✅ Compare computed hash with expected hash
+* ⚠️ Detect **file tampering or corruption**
+* 🔍 Highlights differences between hashes
+* 📊 Shows mismatch count
+* 📈 Real-time progress bar
+
+---
+
+### 📂 Project Structure
+
+```id="3c9q0l"
+📁 File-Hash-Toolkit
+│
+├── file_hasher.py     # Generate file hashes
+├── verify_hash.py     # Verify file integrity
+└── README.md          # Documentation
+```
+
+---
+
+### ⚙️ Requirements
+
+* Python **3.x**
+* No external libraries required
+
+Built using:
+
+* `hashlib`
+* `os`
+* `sys`
+* `time`
+
+---
+
+### 🔐 Supported Algorithms
+
+| Option | Algorithm         |
+| ------ | ----------------- |
+| 1      | MD5               |
+| 2      | SHA-1             |
+| 3      | SHA-224           |
+| 4      | SHA-256 (default) |
+| 5      | SHA-384           |
+| 6      | SHA-512           |
+| 7      | SHA3-256          |
+| 8      | SHA3-512          |
+| 9      | BLAKE2b           |
+
+---
+
+### ▶️ Usage
+
+#### 1️⃣ Generate File Hash
+
+```id="9s3mlp"
+python file_hasher.py
+```
+
+Steps:
+
+* Enter file path
+* Select hashing algorithm
+* View generated hash
+
+---
+
+#### 2️⃣ Verify File Integrity
+
+```id="z1nx7j"
+python verify_hash.py
+```
+
+Steps:
+
+* Enter file path
+* Choose algorithm
+* Paste expected hash
+* View verification result
+
+---
+
+### 📊 Example Output
+
+#### Hash Generation
+
+```id="2gnv1p"
+FILE HASHER
+
+File Path  :  example.txt
+Algorithm  :  SHA256
+Digest     :  a3f5c9...
+Time taken :  0.0021s
+```
+
+---
+
+## Hash Verification
+
+```id="v9c2kb"
+HASH VERIFIED — File is AUTHENTIC
+```
+
+or
+
+```id="8ctzps"
+HASH MISMATCH — File may be CORRUPTED or TAMPERED
+```
+
+---
+
+.
 
