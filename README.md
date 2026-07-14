@@ -1,6 +1,6 @@
-# 🔒 Cybersecurity Python Projects 🚀
+# 🔒 Cybersecurity  Projects 🚀
 
-Cybersecurity is a critical field in today’s digital world, where protecting systems, networks, and data is more important than ever. This repository contains a collection of Python-based projects designed to demonstrate fundamental cybersecurity concepts through practical implementation. Each project focuses on a specific area such as password security, encryption techniques, and network scanning. The goal is to provide hands-on experience while building a strong foundation in cybersecurity and Python programming.
+Cybersecurity is a critical field in today’s digital world, where protecting systems, networks, and data is more important than ever. This repository contains a collection of Code-based projects designed to demonstrate fundamental cybersecurity concepts through practical implementation. Each project focuses on a specific area such as password security, encryption techniques, and network scanning. The goal is to provide hands-on experience while building a strong foundation in cybersecurity and  programming.
 
 ---
 
