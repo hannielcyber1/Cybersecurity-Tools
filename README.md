@@ -590,4 +590,123 @@ HASH MISMATCH — File may be CORRUPTED or TAMPERED
 ---
 
 .
+## 7️⃣🌐📡 IP Sweeper
+
+A lightweight Bash script for **discovering active devices on a local network** by performing a fast ICMP ping sweep across a subnet.
+
+Perfect for **network administrators, cybersecurity students, and penetration testers** who need to quickly identify live hosts.
+
+---
+
+### 🚀 Features
+
+#### 🔹 Network Scanner
+
+* 🌐 Scan an entire `/24` subnet (`.1 – .254`)
+* 📡 Sends a single ICMP echo request to each host
+* ⚡ Runs ping processes in the background for faster scanning
+* 🖥️ Displays only reachable IP addresses
+* 💻 Simple and lightweight Bash implementation
+
+#### 🔹 User Friendly
+
+* ⌨️ Prompts the user for a network subnet
+* 📝 Easy-to-read terminal output
+* 🛠️ No additional software required
+* 🚀 Executes in just a few seconds on most local networks
+
+---
+
+### 📂 Project Structure
+
+```text
+📁 IP-Sweeper
+│
+├── ipsweep.sh      # Bash IP sweep script
+└── README.md       # Project documentation
+```
+
+---
+
+### ⚙️ Requirements
+
+* 🐧 Linux or macOS
+* Bash Shell
+* Network access with ICMP enabled
+
+Built using:
+
+* `ping`
+* `grep`
+* `cut`
+* `tr`
+
+---
+
+### ▶️ Usage
+
+#### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/ip-sweeper.git
+cd ip-sweeper
+```
+
+---
+
+#### 2️⃣ Make the Script Executable
+
+```bash
+chmod +x ipsweep.sh
+```
+
+---
+
+#### 3️⃣ Run the Script
+
+```bash
+./ipsweep.sh
+```
+
+When prompted, enter the subnet without the last octet.
+
+Example:
+
+```text
+Enter Network Subnet: 192.168.1
+```
+
+---
+
+### 📊 Example Output
+
+```text
+192.168.1.1
+192.168.1.5
+192.168.1.12
+192.168.1.100
+```
+
+---
+
+### ⚡ How It Works
+
+1️⃣ Prompts the user for a subnet (e.g., `192.168.1`)
+
+2️⃣ Iterates through IP addresses **1–254**
+
+3️⃣ Sends one ICMP ping request to each host
+
+4️⃣ Filters successful replies
+
+5️⃣ Displays the IP addresses of all reachable devices
+
+---
+
+### 📌 Limitations
+
+* ⚠️ Designed for Unix/Linux-based systems
+* 🔒 Devices blocking ICMP requests will not appear
+* 🌍 Intended for scanning `/24` subnets
+* 📝 Does not perform hostname resolution
 
